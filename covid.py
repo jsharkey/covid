@@ -89,10 +89,10 @@ def plot(country=lambda c: True, state=lambda s: True, color=None, label=None):
 plot(country=lambda c: c == "US", state=lambda s: s == "Colorado",   color="C0", label="Colorado")
 plot(country=lambda c: c == "US", state=lambda s: s == "Minnesota",  color="C1", label="Minnesota")
 plot(country=lambda c: c == "US", state=lambda s: s == "California", color="C2", label="California")
-plot(country=lambda c: c == "US",                                    color="C3", label="US")
+plot(country=lambda c: c == "US", state=lambda s: s == "New York",   color="C3", label="New York")
 
-plot(country=lambda c: c == "Korea, South",                          color="C4", label="South Korea")
-plot(country=lambda c: c == "Italy",                                 color="C5", label="Italy")
+plot(country=lambda c: c == "US",                                    color="k",  label="US")
+plot(country=lambda c: c == "Italy",                                 color="C7", label="Italy")
 
 plt.xticks(x_data_ext, [ datetime.datetime.strftime(start+datetime.timedelta(d), "%m-%d") for d in x_data_ext ], rotation=90)
 plt.yscale("log")
