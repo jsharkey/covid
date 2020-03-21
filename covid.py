@@ -96,7 +96,7 @@ plot(country=lambda c: c == "Italy",                                 color="C7",
 
 plt.xticks(x_data_ext, [ datetime.datetime.strftime(start+datetime.timedelta(d), "%m-%d") for d in x_data_ext ], rotation=90)
 plt.yscale("log")
-plt.legend(loc="lower right")
+plt.legend(loc="upper left")
 
 plt.grid(axis="both")
 plt.title("COVID-19 Regression Analysis\nhttps://github.com/jsharkey/covid, Johns Hopkins CSSE")
