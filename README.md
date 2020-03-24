@@ -6,5 +6,5 @@ This script uses the latest data from
 
 <b>IANAE<sub>pidemiologist</sub>. IANYE<sub>pidemiologist</sub>. This is not medical advice.</b>
 
-![Latest data](03-22.png)
+![Latest data](03-23.png)
 
